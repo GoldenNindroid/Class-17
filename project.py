@@ -1,12 +1,5 @@
-x = input("Enter your age: ")
-try:
-    if x % 2 == 0:
-        print("Even")
-    else:
-        print("Odd")
+import math
 
-except ValueError as er:
-    print("Exception: ", er)
+x = int(input("Enter a number: "))
 
-except:
-    print("Wrong Input")
+print("Sin of x", math.sin(x), "\n Cos of x", math.cos(x), "\n Tan of x", math.tan(x))
